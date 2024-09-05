@@ -70,7 +70,7 @@ def findPokerHand(hand):
     # print(hand)
     output = pokerHandRanks[max(possibleranks)]
     print(hand , output)
-    return pokerHandRanks[max(possibleranks)]
+    return output
 
 if __name__ =="__main__":
     findPokerHand(["KH", "AH", "QH", "JH", "10H"])  # Royal Flush
